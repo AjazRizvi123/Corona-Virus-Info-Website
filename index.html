@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus Info.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body::before {
+            content: "";
+            background: url(virus.jpg) no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 319%;
+            /* max-height: 100%; */
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+        }
+
+        nav {
+            display: flex;
+            padding: 0px 23px;
+            /* background-color: violet; */
+            font-family: 'Secular One', sans-serif;
+
+        }
+
+        .items {
+            list-style: none;
+            text-decoration: none;
+
+            /* background-color: thistle; */
+            padding: 3px 23px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #dacece;
+            display: block;
+            padding: 12px 0px;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        li a:hover {
+            /* background-color: black; */
+            color: grey;
+            cursor: pointer;
+        }
+
+        #container {
+            /* background-color: tomato; */
+            max-width: 80%;
+            margin: 12px auto;
+            padding: 46px;
+            text-align: center;
+            font: bolder;
+            font-size: 25px;
+            font-family: 'Oswald', sans-serif;
+            /* background-color: white; */
+
+        }
+
+        #container p {
+            color: #65f138;
+            /* font-weight: bolder; */
+
+        }
+
+        #container h2 {
+            font-size: 50px;
+            font-family: 'Bangers', cursive;
+        }
+
+        .box {
+            max-width: 80%;
+            margin: 12px auto;
+            background-color: #f5ef96;
+            padding: 46px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+
+        .box h2 {
+            padding: 10px 0px;
+            font-size: 30px;
+            font-weight: bolder;
+            font-family: 'Architects Daughter', cursive
+        }
+
+        .box h1 {
+            font-size: 45px;
+            font-family: 'Bangers', cursive;
+            text-align: center;
+            padding: 20px opx;
+
+        }
+
+        .box1 {
+            margin-bottom: 22px;
+            /* padding-top: 20px; */
+        }
+
+        .box ul li {
+            font-size: 28px;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+        }
+
+        #box2 {
+            max-width: 80%;
+            margin: 12px auto;
+            padding: 46px;
+            /* text-align: center; */
+            /* font: bolder; */
+            /* font-size: 25px; */
+            /* font-family: 'Oswald', sans-serif; */
+            background-color: #f5ef96;
+        }
+
+        #box2 h2 {
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Bangers', cursive;
+            padding-bottom: 49px;
+
+
+
+        }
+
+        .ques {
+            margin: 17px 0px;
+            font-family: 'Secular One', sans-serif;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        #about {
+            max-width: 80%;
+            margin: 12px auto;
+            padding: 46px;
+        }
+
+        #about h2 {
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 8px;
+            font-weight: bold;
+            font-family: 'Bangers', cursive;
+        }
+
+        #about p {
+            font-size: 18px;
+            text-align: center;
+            color: black;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: bold;
+        }
+
+        footer {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-family: 'Secular One', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <li class="items"> <a href="#conatiner">Home</a></li>
+        <li class="items"> <a href="#about">About US</a></li>
+        <li class="items"> <a
+                href="https://covid19.who.int/?gclid=CjwKCAjw_NX7BRA1EiwA2dpg0ilbLTyrT-EDDFV9FCY-s8QDwCM-oXnuBIn9BNw44WKQWLxRo2kC3RoCFO8QAvD_BwE">WHO
+                Database</a></li>
+        <li class="items"> <a
+                href="https://www.newindianexpress.com/nation/2020/jun/05/600-more-hospitals-in-india-designated-as-covid-19-treatment-centres-within-four-weeks-2152691.html">Hospitals</a>
+        </li>
+        <li class="items"> <a href="#box2">FAQ'S</a></li>
+        <li class="items"> <a href="https://www.worldometers.info/coronavirus/">Worldometer</a></li>
+    </nav>
+
+    <div id="container">
+        <h2>Covid-19 STAY HOME STAY SAFE</h2>
+        <p>Coronaviruses are a group of RNA viruses that cause diseases in mammals and birds. In humans and birds, they
+            cause respiratory tract infections that can range from mild to lethal. Mild illnesses in humans include some
+            cases of the common cold (which is also caused by other viruses, predominantly rhinoviruses), while more
+            lethal varieties can cause SARS, MERS, and COVID-19. In cows and pigs they cause diarrhea, while in mice
+            they cause hepatitis and encephalomyelitis. There are as yet no vaccines or antiviral drugs to prevent or
+            treat human coronavirus infections.</p>
+    </div>
+
+    <div class="box">
+        <h1># INDIA FIGHTS CORONA</h1>
+        <h2>DO'S</h2>
+        <div class="box1">
+            <p>
+            <ul>
+                <li>Hand Wash</li>
+                <li>Cover Your Mouth & Nose</li>
+                <li>Consult A Doctor If Sick</li>
+                <li>Stay Indoors</li>
+            </ul>
+            </p>
+        </div>
+
+        <h2>DONT'S</h2>
+        <p class="dont">
+        <ul>
+            <li>Avoid Close Contact With Anyone</li>
+            <li>Do Not Spit</li>
+            <li>Avoid Using Public Transport</li>
+            <li>Do Not Use Over The Counter Medicines</li>
+            <li>Don’t Panic, Take It Easy</li>
+            <li>Don’t Touch Your Face</li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="box2">
+        <h2># Frequently Asked Questions </h2>
+        <div class="ques">
+            <p>
+                Q: What are the symptoms of Corona Virus disease?
+            </p>
+            <p>
+                Ans:The virus can cause a range of symptoms, ranging from mild illness to pneumonia. Symptoms of the
+                disease are fever, cough, sore throat and headaches. In severe cases difficulty in breathing and deaths
+                can occur.
+            </p>
+        </div>
+        <div class="ques">
+            <p>
+                Q: How long do COVID-19 patients need to be isolated for?
+            </p>
+            <p>
+                Ans:It is important to note that the clinical criteria require that patients' symptoms have been
+                resolved for at least three days before release from isolation, with a minimum time in isolation of 13
+                days since symptom onset.
+            </p>
+        </div>
+        <div class="ques">
+            <p>
+                Q: What is the recovery time for the coronavirus disease?
+            </p>
+            <p>
+                Using available preliminary data, the median time from onset to clinical recovery for mild cases is
+                approximately 2 weeks and is 3-6 weeks for patients with severe or critical disease.
+            </p>
+        </div>
+        <div class="ques">
+            <p>
+                Q: Can COVID-19 spread through food?
+            </p>
+            <p>
+                Ans:It is highly unlikely that people can contract COVID-19 from food or food packaging. COVID-19 is a
+                respiratory illness and the primary transmission route is through person-to- person contact and through
+                direct contact with respiratory droplets generated when an infected person coughs or sneezes.There is no
+                evidence to date of viruses that cause respiratory illnesses being transmitted via food or food
+                packaging. Coronaviruses cannot multiply in food; they need an animal or human host to multiply.
+            </p>
+        </div>
+        <div class="ques">
+            <p>
+                Q: What food should you avoid during COVID-19?
+            </p>
+            <p>
+                Ans:When cooking and preparing food, limit the amount of salt and high-sodium condiments (e.g. soy sauce
+                and fish sauce).Limit your daily salt intake to less than 5(approximately 1 teaspoon), and use iodized
+                salt. Avoid foods (e.g. snacks) that are high in salt and sugar. Limit your intake of soft drinks or
+                sodas and other drinks that are high in sugar (e.g. fruit juices, fruit juice concentrates and syrups,
+                flavoured milks and yogurt drinks) Choose fresh fruits instead of sweet snacks such as cookies, cakes
+                and chocolate.
+            </p>
+        </div>
+    </div>
+
+    <div id="about">
+        <h2>ABOUT US</h2>
+        <p>
+            We are the team of Freelancers are taking the initiative of making the people of #India and all over the
+            world aware of newly introduced a deadly virus knowns as Novel corona Virus the virus started its journey
+            from the city of wuhan, city in china now dominating the intire globe till now italy had reported the
+            highest number of deaths and USA at top with most number of covid cases in the world, we electronics
+            converted web freelancers are providing the safety measure through our website, we had completed our
+            bachelor degree in engineering in year 2019 and due to the boom in IT sector we had completely switched our
+            career from hardware to software, we hope that our initiative will help people getting aware of Covid and
+            helps them stay protected stay safe.
+        </p>
+    </div>
+
+    <footer>
+        Copyright &copy; www.CoronaVirusInfo.com. All Rights Reserved!
+    </footer>
+
+</body>
+
+</html>
